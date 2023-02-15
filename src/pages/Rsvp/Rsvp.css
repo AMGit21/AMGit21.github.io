@@ -1,0 +1,123 @@
+.rsvpSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 5% auto;
+}
+
+.fromWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 3% auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+.inputText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    /* margin: 1px; */
+    width: 400px;
+}
+
+h4 {
+    margin: 5px;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 10px;
+    border: 1px solid var(--gold-color);
+}
+
+.inputText label {
+    margin-left: 50px;
+}
+
+.fullName {
+    margin: 0 !important;
+}
+
+.radioInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 3px;
+}
+
+button[type="submit"] {
+    background-color: var(--gold-color);
+    /* opacity: .5; */
+    align-self: center;
+    color: white;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .2s all ease-in-out;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+/* button:hover {
+    opacity: 1;
+    color: white;
+} */
+
+.separatorLine {
+    width: 80%;
+    border-top: 1px solid var(--gold-color);
+}
+
+.smallSeparatorLine {
+    width: 30% !important;
+    border-top: 1px solid var(--gold-color);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    margin: 2% auto;
+}
+
+.contactName {
+    color: var(--gold-color);
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.contactWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 5% auto;
+}

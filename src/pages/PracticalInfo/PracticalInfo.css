@@ -1,0 +1,46 @@
+.locationSectionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin: 5% auto;
+}
+
+.divWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.practicalInformationSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    height: fit-content;
+    padding: 30px;
+    margin: 0 auto 5% auto;
+    border-left: 10px double var(--gold-color);
+    border-right: 10px double var(--gold-color);
+    border-radius: 60px;
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7); */
+}
+
+h3 {
+    font-size: x-large;
+}
+
+h3,
+h4 {
+    margin-bottom: 1px;
+}
+
+hr {
+    border-top: 1px solid var(--gold-color);
+    margin-left: 0;
+    width: 100% !important;
+}

@@ -1,0 +1,79 @@
+.programSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 5% auto;
+}
+
+.divWrapperProgram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+}
+
+.timelineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.listTitle {
+    font-size: 32px;
+    color: var(--gold-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.listItem {
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+}
+
+hr {
+    border-top: 1px solid var(--gold-color);
+    width: 50%;
+    margin: auto;
+}
+
+.programSectionText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.rsvpLink {
+    background-color: var(--gold-color);
+    color: white;
+    padding: 8px 30px;
+    height: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+
+/* .rsvpLink:hover {
+    background-color: var(--gold-color);
+    color: black;
+    border: 1px solid black;
+} */

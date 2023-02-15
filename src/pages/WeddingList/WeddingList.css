@@ -1,0 +1,24 @@
+.weddingListSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto 5% auto;
+    text-align: center;
+}
+
+.weddingListSectionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
+.weddingListSectionGiftIcon {
+    width: 70px;
+    height: auto;
+    border-radius: 5px;
+}

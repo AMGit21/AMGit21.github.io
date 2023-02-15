@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+:root {
+    --gold-color: #d2ad02;
+    --blue-color: #a4c5e8;
+    --shadow: 2px 2px 6px black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    font-size: large;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: "CityStreetwear-Regular";
+    src: url("./assets/fonts/CityStreetwear-Regular.ttf") format("truetype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: "SourceSerifVariable-Roman";
+    src: url("./assets/fonts/SourceSerifVariable-Roman.otf") format("truetype");
 }
 
-.App-link {
-  color: #61dafb;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "SourceSerifVariable-Roman", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: var(--gold-color);
+    font-weight: 370;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.lineUnderTitle {
+    width: 150px !important;
+    height: 4px;
+    margin: 1% auto;
+    background: rgb(210, 173, 2);
+    background: linear-gradient(90deg, rgba(210, 173, 2, 1) 0%, rgba(255, 255, 255, 1) 70%, rgba(210, 173, 2, 1) 100%);
+}
+
+.lineBetweenSection {
+    width: 100% !important;
+    height: 4px;
+    /* margin: 1% auto; */
+    background: rgb(210, 173, 2);
+    background: linear-gradient(90deg, rgba(210, 173, 2, 1) 0%, rgba(255, 255, 255, 1) 35%, rgba(210, 173, 2, 1) 50%, rgba(255, 255, 255, 1) 85%, rgba(210, 173, 2, 1) 100%);
 }
