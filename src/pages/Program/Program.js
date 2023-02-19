@@ -12,14 +12,29 @@ const Program = () => {
             <div className='divWrapperProgram'>
                 <div className="timelineContainer">
                     <ul className='listTitle'>{t('Saturday September 16, 2023')}
-                        <li className='listItem'><i>{t("Location: Plage des Rois - Byblos, Lebanon")}</i></li>
+                        <li className='listItem'>
+                            <i>{t("Location: ")}
+                                <a href="https://goo.gl/maps/GZP2A4y4kApzVkKx7" rel="noreferrer" target="_blank">
+                                    Plage des Rois
+                                </a> - Byblos,
+                                {t(" Lebanon")}
+                            </i>
+                        </li>
                         <li className='listItem'>{t('4:30pm: Wedding ceremony')}</li>
                         <li className='listItem'>{t('6pm: Cocktail')}</li>
                         <li className='listItem'>{t('8pm: Dinner and Party')}</li>
                     </ul>
                     <hr className='lineBetweenTimeLine' />
                     <ul className='listTitle'>{t('Sunday, September 17, 2023')}
-                        <li className='listItem'><i>{t("Location: Chez Fouad - Anfeh, Lebanon")}</i></li>
+                        <li className='listItem'>
+                            <i>
+                                {t("Location: ")}
+                                <a href="https://goo.gl/maps/JJhDYudGSM2d69Df6" rel="noreferrer" target="_blank">
+                                    Chez Fouad
+                                </a> - Anfeh,
+                                {t(" Lebanon")}
+                            </i>
+                        </li>
                         <li className='listItem'>{t('1pm: Lunch Chez Fouad')}</li>
                     </ul>
                 </div>
@@ -32,7 +47,7 @@ const Program = () => {
                     <br />
                     {t('A unique menu will be offered at the price of 40$ per person.')}
                     <br /><br />
-                    <Link className='rsvpLink' to="/rsvp">{t('RSVP')}</Link>
+                    <Link to="/rsvp" className='rsvpLink'>{t('RSVP')}</Link>
                 </p>
             </div>
         </div >

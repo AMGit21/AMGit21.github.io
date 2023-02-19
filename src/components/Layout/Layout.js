@@ -51,7 +51,9 @@ const Layout = () => {
                 <h1 className='sabineAndjulien'>{t('Sabine and Julien')}</h1>
             </div>
             <div className='navbar' ref={navRef}>
-                <div><BsList className='listIcon' onClick={toggleNav} /></div>
+                <div>
+                    <BsList className='listIcon' onClick={toggleNav} />
+                </div>
                 <nav className={showNav ? "show" : "nav"}>
                     <Link to='/'
                         className={`navItem ${active === 'welcome' ? 'active' : ''}`}

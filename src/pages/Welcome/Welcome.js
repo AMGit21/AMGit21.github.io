@@ -20,7 +20,7 @@ const Welcome = () => {
                     alt="calligraphie"
                     className="alliancesCroiseesImgWelcomePage"
                 />
-                <p>{t("Welcome to our wedding website! We are so excited to see you all at our wedding in Lebanon! Here you will find all information and details about it. In case you have any question and do not find the answer, feel reach to reach out to us on ")}
+                <p>{t("Welcome to our wedding website! We are so excited to see you all at our wedding in Lebanon! Here you will find all information and details about it. In case you have any question and do not find the answer, feel free to reach out to us on ")}
                     <a href="mailto:mariage.sabineetjulien@gmail.com">mariage.sabineetjulien@gmail.com</a>
                     {t(" We hope to see you all at our wedding!")}
                 </p>

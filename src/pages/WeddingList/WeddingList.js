@@ -9,7 +9,7 @@ const WeddingList = () => {
             <h2 className='title'>{t('weddingList')}</h2>
             <div className='lineUnderTitle'></div>
             <div className="weddingListSectionText">
-                <p>{t("Our best gift would be to see you at our wedding and celebrate that moment together. But if you wish to offer something, you can click on the gift below")}</p>
+                <p>{t("Our best gift would be to see you at our wedding and celebrate that moment together. But if you wish to offer something, you can click on the gift below.")}</p>
             </div>
             <div>
                 <a href="https://www.millemercismariage.com/sabineetjulien/liste.html">
