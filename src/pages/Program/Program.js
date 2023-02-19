@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Program.css'
 import { useTranslation } from 'react-i18next';
+import { ActiveLinkContext } from '../../components/ActiveLinkContext/ActiveLinkContext.js';
 
 const Program = () => {
     const { t } = useTranslation();
-    const [active, setActive] = useState('program');
+    const { setActive } = useContext(ActiveLinkContext);
+
+    const rsvpProgHandleClick = () => {
+        setActive('rsvp');
+    }
     return (
         <div className='programSection'>
             <h2 className='title'>{t("program")}</h2>
@@ -49,8 +54,8 @@ const Program = () => {
                     {t('A unique menu will be offered at the price of 40$ per person.')}
                     <br /><br />
                     <Link to="/rsvp"
-                        className={`rsvpLink navItem ${active === 'rsvp' ? 'active' : ''}`}
-                        onClick={() => setActive('rsvp')}
+                        className="rsvpLink"
+                        onClick={rsvpProgHandleClick}
                     >{t('RSVP')}</Link>
                 </p>
             </div>

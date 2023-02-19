@@ -1,9 +1,11 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useContext } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Layout.css'
 import { BsList } from "react-icons/bs";
 import calligraphie from '../../assets/images/calligraphie.png'
+
+import { ActiveLinkContext } from '../ActiveLinkContext/ActiveLinkContext.js';
 const Layout = () => {
     const { t, i18n } = useTranslation();
 
@@ -16,7 +18,9 @@ const Layout = () => {
     const handleMouseLeaveEffect = (e) => {
         e.target.style.transform = "scale(1)";
     };
-    const [active, setActive] = useState('welcome');
+    // const [active, setActive] = useState('welcome');
+    const { active } = useContext(ActiveLinkContext);
+    const { setActive } = useContext(ActiveLinkContext);
     const [activeLngSelector, setActiveLngSelector] = useState('fr');
 
     const [showNav, setShowNav] = useState(false);
@@ -70,6 +74,7 @@ const Layout = () => {
                     >{t('practical info')}
                     </Link>
                     <Link to='/program'
+                        id="program"
                         className={`navItem ${active === 'program' ? 'active' : ''}`}
                         onClick={() => setActive('program')}
                         onMouseEnter={handleMouseOverEffect}
@@ -77,6 +82,7 @@ const Layout = () => {
                     >{t('program')}
                     </Link>
                     <Link to='/rsvp'
+                        id="rsvp"
                         className={`navItem ${active === 'rsvp' ? 'active' : ''}`}
                         onClick={() => setActive('rsvp')}
                         onMouseEnter={handleMouseOverEffect}
