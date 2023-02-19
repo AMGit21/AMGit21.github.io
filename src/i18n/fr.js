@@ -1,4 +1,5 @@
 const fr = {
+    "Sabine and Julien": "Sabine et Julien",
     "welcome": "Bienvenue",
     "practical info": "Fiche Pratique",
     "program": "Programme",
@@ -11,18 +12,25 @@ const fr = {
     "Practical information": "Infos Pratique",
     // ----------------------------------
     "Flights": "Vols",
-    "Direct flights to Beirut exist with departure from Paris and Lyon with the following companies: Transavia, Air France and Middle East Airlines. We recommend that you book your round trip directly on the company’s website and fast.": "Des vols en direct existent depuis Paris et depuis Lyon pour Beirut avec Transavia, Air France et Middle East. Nous vous recommandons de réserver rapidement votre aller/retour directement sur le site de la compagnie choisie.",
+    "Direct flights to Beirut exist with departure from Paris and Lyon with the following companies: Transavia, Air France and Middle East Airlines. We recommend that you book your round trip directly on the company’s website.": "Des vols en direct existent depuis Paris et depuis Lyon pour Beyrouth avec Transavia, Air France et Middle East. Nous vous recommandons de réserver rapidement votre aller/retour directement sur le site de la compagnie choisie.",
     // ----------------------------------
     "Hotels": "Hôtels",
-    "You can use Airbnb or the website Booking.com for your reservations.": "Vous pouvez passer par Airbnb ou par le site de Booking.com pour vos réservations.",
+    "Whether it is for Beirut or Byblos, there are a lot of hotels available. You can book through Airbnb or ": "Que ce soit à Beyrouth ou Byblos, il y a plein d'hôtels de disponible, vous pouvez passer par Airbnb ou par le site de ",
+    " for your reservations.": " pour vos réservations.",
     "Beirut: we recommend you to say in the following areas: Achrafieh, Gemmayzeh, Mar Mikhael, Badaro, Sodeco or Hamra": "A Beyrouth : Nous vous recommandons de séjourner dans les quartiers suivants : Achrafieh, Gemmayzé, Mar Mikhael, Badaro, Sodeco ou Hamra",
-    "Byblos: we recommend you to book a hotel close to the wedding location (you can easily find it on Google Map). If you need some help with finding a place, we managed to get some discounts in the following hotels: Aleph Boutique Hotel and Victory Byblos Hotel. Here are the email you can use for your booking": "A Byblos : Nous vous recommandons de réserver un hôtel proche du lieu de mariage (vérifier sur l'application Google Map). Si vous ne trouvez pas votre bonheur, nous avons négocié des tarifs préférentiels  le Aleph Boutique Hôtel ou le Victory Byblos Hôtel. Voici les personnes à contacter pour réserver",
-    "Aleph Boutique Hotel": "Aleph Boutique Hôtel",
-    "Victory Byblos Hotel": "Victory Byblos Hôtel",
-    "For those who are lucky to stay a bit more in the country, you can check the following website to book a night or two in one of their guesthouses.": "Pour ceux qui ont la chance de rester un peu plus longtemps au Liban, n'hésitez pas à regarder le site de l'hôte libanais pour une nuit ou deux dans une de leur guest house.",
+    "Byblos: we recommend you to book a hotel close to the wedding location (you can easily find it on ": "A Byblos : Nous vous recommandons de réserver un hôtel proche du lieu de mariage (vérifier sur l'application ",
+    " If you need some help with finding a place, we managed to get some discounts in the following hotel: Victory Byblos Hotel & Spa. Below are some details:": " Si vous ne trouvez pas votre bonheur, nous avons négocié des tarifs préférentiels avec l'hôtel suivant : le Victory Byblos Hôtel. Ci-dessous les détails:",
+    "Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ": "Les tarifs démarrent à 60$ par nuit pour une chambre double sans petit déjeuner. Pour plus d'infos vous trouverez l'ensemble des offres ",
+    " here": " ici",
+    ' Il faut regarder les prix de la liste "Bed only" (sans petit déjeuner) et "Bed and Buffet Breakfast" (avec petit déjeuner).': ' Il faut regarder les prix de la liste "Bed only" (sans petit déjeuner) et "Bed and Buffet Breakfast" (avec petit déjeuner).',
+    "To book, please send an email ": "Pour réserver, merci d'envoyer un mail ",
+    ' mentioning "Wedding Sabine & Julien" in the subject so you can benefit from the offer.': ' en indiquant en objet "Wedding Sabine & Julien" afin de bénéficier des tarifs préférentiels.',
+
+    "For those who are lucky to stay a bit more in the country, you can check the website ": "Pour ceux qui ont la chance de rester un peu plus longtemps au Liban, n'hésitez pas à regarder le site de l'",
+    " to book a night or two in one of their guesthouses.": " pour une nuit ou deux dans une de leur guest house.",
     // -----------------------------------
     "Arrival at Beirut International Airport": "Arrivée à l’Aéroport International de Beyrouth",
-    "The visa is free of charge and is done at their airport at the security check": "Le visa est gratuit et se fait au niveau du passage de la police aux frontières (PAF)",
+    "The visa is free of charge and is done at the airport at the security check": "Le visa est gratuit et se fait au niveau du passage de la police aux frontières (PAF)",
     "Please ensure your passport is valid for 6 months at least after your arrival to Lebanon": "Vérifier que votre passeport à une date de validité supérieure à 6 mois",
     "Please ensure you do not have an Israeli visa stamp in your passport (entrance to the country will be refused if you do)": "Vérifier que vous n’avez pas de visa/tampon israélien dans le passeport (votre entrée sur le territoire sera refusée)",
     "Wifi at the airport is available at arrival": "Un wifi est disponible à l’aéroport à votre arrivée",
@@ -42,7 +50,7 @@ const fr = {
 
 
     // end of info pratique
-    "Our best gift would be to see you at our wedding and celebrate that moment together. But if you wish to offer something, you can click on the gift below": "Notre plus beau cadeau serait votre présence à notre mariage ! Mais si vous souhaitez nous offrir quelque chose vous pouvez cliquer sur le lien ci-dessous",
+    "Our best gift would be to see you at our wedding and celebrate that moment together. But if you wish to offer something, you can click on the gift below": "Notre plus beau cadeau serait votre présence à notre mariage ! Mais si vous souhaitez nous offrir quelque chose vous pouvez cliquer sur le cadeau ci-dessous",
     "Saturday September 16, 2023": "Samedi 16 septembre 2023",
     "Location: Plage des Rois - Byblos, Lebanon": "Lieu : Plage des Rois - Byblos, Liban",
     "4:30pm: Wedding ceremony": "16h30 : Cérémonie de mariage",
@@ -55,6 +63,8 @@ const fr = {
     "On the next day, we are looking forward to show you the beautiful coast of Lebanon and have lunch at Chez Fouad": "",
     "For Sunday, September 17, we are planning to book most of the place, please confirm your attendance.": "Pour le déjeuner du dimanche 17 septembre, nous planifions de réserver une grosse partie du restaurant, merci de confirmer votre présence.",
     "A unique menu will be offered at the price of 40$ per person.": "Un menu unique est prévu au tarif de 40$ par personne.",
+    // RSVP
+    "You're invited": "Vous êtes invités",
     "Full Name": "Nom et Prénom",
     "Will attend the wedding": "Viendra au mariage",
     "Will unfortunately not be able to attend the wedding": "Ne pourra malheureusement pas venir au mariage",

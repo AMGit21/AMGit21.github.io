@@ -1,6 +1,6 @@
 import React from 'react';
 import './PracticalInfo.css'
-import 'animate.css';
+import VictoryHotelDeals from '../../assets/pdf/Victory Hotel deals.pdf'
 import { useTranslation } from 'react-i18next';
 const PracticalInfo = () => {
     const { t } = useTranslation();
@@ -17,20 +17,35 @@ const PracticalInfo = () => {
                 <br />
                 <h4>{t("Flights")}</h4>
                 <hr />
-                <p>{t("Direct flights to Beirut exist with departure from Paris and Lyon with the following companies: Transavia, Air France and Middle East Airlines. We recommend that you book your round trip directly on the company’s website and fast.")}</p>
+                <p>{t("Direct flights to Beirut exist with departure from Paris and Lyon with the following companies: Transavia, Air France and Middle East Airlines. We recommend that you book your round trip directly on the company’s website.")}</p>
                 <h4>{t("Hotels")}</h4>
                 <hr />
-                <p>{t("You can use Airbnb or the website Booking.com for your reservations.")}</p>
+                <p>{t("Whether it is for Beirut or Byblos, there are a lot of hotels available. You can book through Airbnb or ")}
+                    <a href="https://www.booking.com/" rel="noreferrer" target="_blank">www.Booking.com</a>
+                    {t(" pour vos réservations.")}</p>
                 <p>{t("Beirut: we recommend you to say in the following areas: Achrafieh, Gemmayzeh, Mar Mikhael, Badaro, Sodeco or Hamra")}</p>
-                <p>{t("Byblos: we recommend you to book a hotel close to the wedding location (you can easily find it on Google Map). If you need some help with finding a place, we managed to get some discounts in the following hotels: Aleph Boutique Hotel and Victory Byblos Hotel. Here are the email you can use for your booking")}</p>
-                <p>{t("Aleph Boutique Hotel")}</p>
-                <p>{t("Victory Byblos Hotel")}</p>
-                <p>{t("For those who are lucky to stay a bit more in the country, you can check the following website to book a night or two in one of their guesthouses.")}</p>
-                <a href="https://www.hotelibanais.com/fr/" rel="noreferrer" target="_blank">www.hotelibanais.com/fr</a>
+                <p>{t("Byblos: we recommend you to book a hotel close to the wedding location (you can easily find it on ")}
+                    <a href=" https://www.google.com/maps/place/Victory+Byblos+Hotel+%26+Spa/@34.106807,35.652295,15z/data=!4m2!3m1!1s0x0:0xa7c542da667d7754?sa=X&ved=2ahUKEwikzY3SsJf9AhV2Y6QEHQzBAEAQ_BJ6BAh2EAc" target="_blank">Google Map</a>
+                    ).{t(" If you need some help with finding a place, we managed to get some discounts in the following hotel: Victory Byblos Hotel & Spa. Below are some details:")}</p>
+
+                <p>{t("Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ")}
+                    <a href={VictoryHotelDeals} rel="noreferrer" target="_blank">{t("here")}</a>.
+                    {t(' Il faut regarder les prix de la liste "Bed only" (sans petit déjeuner) et "Bed and Buffet Breakfast" (avec petit déjeuner).')}</p>
+                <p>{t("To book, please send an email ")}
+                    <a href="mailto:victorybybloshotel@gmail.com">{t("here")}</a>
+                    {t(' mentioning "Wedding Sabine & Julien" in the subject so you can benefit from the offer.')}
+                </p>
+
+
+
+                <p>{t("For those who are lucky to stay a bit more in the country, you can check the website ")}
+                    <a href="https://www.hotelibanais.com/fr/" rel="noreferrer" target="_blank">hôte libanais</a>
+                    {t(" to book a night or two in one of their guesthouses.")}
+                </p>
 
                 <h4>{t("Arrival at Beirut International Airport")}</h4>
                 <hr />
-                <p>{t("The visa is free of charge and is done at their airport at the security check")}</p>
+                <p>{t("The visa is free of charge and is done at the airport at the security check")}</p>
                 <p>{t("Please ensure your passport is valid for 6 months at least after your arrival to Lebanon")}</p>
                 <p>{t("Please ensure you do not have an Israeli visa stamp in your passport (entrance to the country will be refused if you do)")}</p>
                 <p>{t("Wifi at the airport is available at arrival")}</p>

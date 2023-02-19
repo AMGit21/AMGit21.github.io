@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Layout.css'
 import { BsList } from "react-icons/bs";
 import calligraphie from '../../assets/images/calligraphie.png'
-// import alliancesCroisees from '../../assets/images/alliancesCroisees.png'
 const Layout = () => {
     const { t, i18n } = useTranslation();
 
@@ -19,6 +18,26 @@ const Layout = () => {
     };
     const [active, setActive] = useState('welcome');
     const [activeLngSelector, setActiveLngSelector] = useState('fr');
+
+    const [showNav, setShowNav] = useState(false);
+
+    const navRef = useRef();
+    const toggleNav = () => {
+        setShowNav(!showNav);
+    }
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (navRef.current && !navRef.current.contains(event.target)) {
+                setShowNav(false);
+            }
+        }
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [navRef]);
+
     return (
         <div className='layout'>
             <div className='textMiddleLine'>
@@ -29,15 +48,11 @@ const Layout = () => {
                 />
             </div>
             <div className='layoutTitleSection'>
-                <h1 className='sabineAndjulien'>Sabine et Julien</h1>
-                {/* <img
-                    src={alliancesCroisees}
-                    alt="calligraphie"//{t('image_description')}
-                    className="alliancesCroiseesImg"
-                /> */}
+                <h1 className='sabineAndjulien'>{t('Sabine and Julien')}</h1>
             </div>
-            <div className='navbar'>
-                <nav className='nav'>
+            <div className='navbar' ref={navRef}>
+                <div><BsList className='listIcon' onClick={toggleNav} /></div>
+                <nav className={showNav ? "show" : "nav"}>
                     <Link to='/'
                         className={`navItem ${active === 'welcome' ? 'active' : ''}`}
                         onClick={() => setActive('welcome')}
@@ -90,16 +105,15 @@ const Layout = () => {
                         }}
                     >FR</button>
                 </div>
-                <div><BsList className='listIcon' /></div>
             </div>
             <div className="contentPages">
                 <Outlet />
             </div>
-            {/* <footer className='copyrightSection'>
-                <p>
-                    Copyright © 2023 - Done by <a href="mailto:alimantache1994@gmail.com">Ali Mantache</a>
+            <footer className='copyrightSection'>
+                <p className='copyrightSectionText'>
+                    Copyright © 2023 - done by <a className="copyrightSectionMail" href="mailto:alimantache1994@gmail.com">Ali Mantache</a>
                 </p>
-            </footer> */}
+            </footer>
         </div>
     );
 }

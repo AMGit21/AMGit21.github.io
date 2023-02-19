@@ -25,6 +25,10 @@ body {
     font-family: "SourceSerifVariable-Roman", sans-serif;
 }
 
+a {
+    color: black;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -50,4 +54,10 @@ body {
     /* margin: 1% auto; */
     background: rgb(210, 173, 2);
     background: linear-gradient(90deg, rgba(210, 173, 2, 1) 0%, rgba(255, 255, 255, 1) 35%, rgba(210, 173, 2, 1) 50%, rgba(255, 255, 255, 1) 85%, rgba(210, 173, 2, 1) 100%);
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: medium;
+    }
 }

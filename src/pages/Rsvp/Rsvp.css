@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto 5% auto;
+    text-align: center;
 }
 
 .fromWrapper {
@@ -11,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 90%;
     margin: 3% auto;
 }
 
@@ -21,9 +22,8 @@ form {
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 80%;
+    width: 100%;
     margin: auto;
-    padding: 20px 40px;
 }
 
 .inputText {
@@ -32,13 +32,7 @@ form {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    /* margin: 1px; */
     width: 400px;
-}
-
-h4 {
-    margin: 5px;
-    padding: 10px;
 }
 
 input[type="text"] {
@@ -69,7 +63,6 @@ input[type="text"] {
 
 button[type="submit"] {
     background-color: var(--gold-color);
-    /* opacity: .5; */
     align-self: center;
     color: white;
     padding: 8px 50px;
@@ -81,12 +74,6 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-
-/* button:hover {
-    opacity: 1;
-    color: white;
-} */
-
 .separatorLine {
     width: 80%;
     border-top: 1px solid var(--gold-color);
@@ -95,6 +82,7 @@ button[type="submit"] {
 .smallSeparatorLine {
     width: 30% !important;
     border-top: 1px solid var(--gold-color);
+    margin: auto;
 }
 
 .contact {

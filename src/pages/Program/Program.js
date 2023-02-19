@@ -14,9 +14,8 @@ const Program = () => {
                         <li className='listItem'>{t('4:30pm: Wedding ceremony')}</li>
                         <li className='listItem'>{t('6pm: Cocktail')}</li>
                         <li className='listItem'>{t('8pm: Dinner and Party')}</li>
-                        {/* <li className='listItem'>{t('1am: Departure of the first buses back to the hotel')}</li> */}
                     </ul>
-                    <hr />
+                    <hr className='lineBetweenTimeLine' />
                     <ul className='listTitle'>{t('Sunday, September 17, 2023')}
                         <li className='listItem'><i>{t("Location: Chez Fouad - Anfeh, Lebanon")}</i></li>
                         <li className='listItem'>{t('1pm: Lunch Chez Fouad')}</li>
@@ -26,15 +25,12 @@ const Program = () => {
 
             <div className='lineBetweenSection'></div>
             <div className='programSectionText'>
-                {/* <p>
-                    {t('On the next day, we are looking forward to show you the beautiful coast of Lebanon and have lunch at Chez Fouad')}
-                </p> */}
                 <p>
                     {t('For Sunday, September 17, we are planning to book most of the place, please confirm your attendance.')}
                     <br />
                     {t('A unique menu will be offered at the price of 40$ per person.')}
                     <br /><br />
-                    <a className='rsvpLink' href="./rsvp">{t('RSVP')}</a>
+                    <a className='rsvpLink' href="https://www.sabineetjulien.com/rsvp">{t('RSVP')}</a>
                 </p>
             </div>
         </div >

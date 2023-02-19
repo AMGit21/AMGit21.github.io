@@ -4,9 +4,6 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto 5% auto;
-    /* background-image: url(../../assets/images/laMer.png);
-    background-size: cover;
-    background-position: cover; */
     width: 60%;
     padding: 0;
 }
@@ -38,26 +35,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-    /* [class*="welcomeSection"] {
-        flex-direction: column;
-        padding: 0;
-        margin: 2% 0;
-    } */
+    .welcomeSection {
+        width: 90%;
+    }
     .welcomeSectionImage {
         width: 100%;
         height: auto;
     }
-    /* .welcomeSectionText {
-        margin: 0 10%;
-        padding: 10%; 
-    }  */
-    /* .slider {
-        margin: 8% 0;
-        overflow: hidden;
-    }
-    .sliderImg {
-        width: 90%;
-        height: 400px;
-        margin: 4% auto;
-    } */
 }

@@ -1,0 +1,9 @@
+.notFound {
+    background: rgb(210, 173, 2);
+    background: linear-gradient(90deg, rgba(210, 173, 2, 1) 0%, rgba(255, 255, 255, 1) 70%, rgba(210, 173, 2, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 0 auto;
+}

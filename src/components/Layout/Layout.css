@@ -30,17 +30,6 @@
     justify-content: center;
 }
 
-
-/* .alliancesCroiseesImg {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: auto;
-    margin-top: -100px;
-} */
-
 .sabineAndjulien {
     display: flex;
     flex-direction: row;
@@ -56,7 +45,7 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
     height: 50px;
@@ -71,6 +60,22 @@
     align-items: center;
     flex-direction: row;
     height: inherit;
+}
+
+.show {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white !important;
+    transition: .8s all ease-in-out;
+    height: min-content;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .navItem {
@@ -126,29 +131,28 @@
 }
 
 .copyrightSection {
-    background-color: var(--gold-color);
+    background-color: white;
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 40px;
+    height: 30px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-a {
-    color: black;
-    /* text-decoration: none; */
+.copyrightSectionText,
+.copyrightSectionMail {
+    font-size: 12px !important;
 }
 
 .listIcon {
     color: var(--gold-color);
-    font-size: 40px;
+    font-size: 35px;
     display: none;
     cursor: pointer;
-    margin-left: -60px;
 }
 
 .contentPages {
@@ -156,14 +160,37 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+    .textMiddleLine:before,
+    .textMiddleLine:after {
+        border-bottom: 1px solid var(--gold-color);
+        margin: 0 10px;
+    }
+    .navbar {
+        height: 35px;
+        justify-content: space-between;
+        border: 1px solid var(--gold-color);
+        border-radius: 5px;
+        width: 90%;
+        padding: 0 10px;
+    }
     .nav {
         display: none;
+    }
+    .languageSelector {
+        margin-right: -8px;
     }
     .listIcon {
         display: block;
     }
     .languageSelectorButton {
         font-size: 12px;
-        padding: 6px;
+        padding: 5px;
+    }
+    .calligraphie {
+        width: 150px;
+    }
+    .sabineAndjulien {
+        font-size: 50px;
+        margin-bottom: -6px;
     }
 }

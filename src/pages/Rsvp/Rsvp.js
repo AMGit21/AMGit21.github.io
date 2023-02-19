@@ -5,13 +5,12 @@ const Rsvp = () => {
     const { t } = useTranslation();
     return (
         <div className='rsvpSection'>
-            <h2 className='title'>You're invited</h2>
+            <h2 className='title'>{t("You're invited")}</h2>
             <div className='lineUnderTitle'></div>
             <div className='fromWrapper'>
                 <form
-                    action="https://formspree.io/f/mbjednel"
+                    action="https://formspree.io/f/xzbqregr"
                     method="POST"
-                    enctype="multipart/form-data"
                 >
                     <div className='inputText'>
                         <label className='fullName'>{t('Full Name')}</label>
@@ -68,7 +67,7 @@ const Rsvp = () => {
                             {t('Will not be able to attend the lunch on September 17')}
                         </div>
                     </div>
-                    <hr className='separatorLine' />
+                    {/* <hr className='separatorLine' /> */}
                     <button type="submit">{t('Send')}</button>
                 </form>
             </div >
