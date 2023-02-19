@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Program.css'
 import { useTranslation } from 'react-i18next';
 
 const Program = () => {
     const { t } = useTranslation();
+    const [active, setActive] = useState('program');
     return (
         <div className='programSection'>
             <h2 className='title'>{t("program")}</h2>
@@ -47,7 +48,10 @@ const Program = () => {
                     <br />
                     {t('A unique menu will be offered at the price of 40$ per person.')}
                     <br /><br />
-                    <Link to="/rsvp" className='rsvpLink'>{t('RSVP')}</Link>
+                    <Link to="/rsvp"
+                        className={`rsvpLink navItem ${active === 'rsvp' ? 'active' : ''}`}
+                        onClick={() => setActive('rsvp')}
+                    >{t('RSVP')}</Link>
                 </p>
             </div>
         </div >
