@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Program.css'
 import { useTranslation } from 'react-i18next';
+
 const Program = () => {
     const { t } = useTranslation();
     return (
@@ -30,7 +32,7 @@ const Program = () => {
                     <br />
                     {t('A unique menu will be offered at the price of 40$ per person.')}
                     <br /><br />
-                    <a className='rsvpLink' href="https://www.sabineetjulien.com/rsvp">{t('RSVP')}</a>
+                    <Link className='rsvpLink' to="/rsvp">{t('RSVP')}</Link>
                 </p>
             </div>
         </div >
