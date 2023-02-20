@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fde2c514.css",
-    "main.js": "/static/js/main.2589ba0c.js",
+    "main.css": "/static/css/main.10be4e33.css",
+    "main.js": "/static/js/main.e65691b8.js",
     "static/media/sabine.jpg": "/static/media/sabine.22fb7cf6e3353c367c59.jpg",
     "static/media/SourceSerifVariable-Roman.otf": "/static/media/SourceSerifVariable-Roman.f1dc94357ac31693f661.otf",
     "static/media/Victory Hotel deals.pdf": "/static/media/Victory Hotel deals.d0c0f0a2852594f13b92.pdf",
@@ -10,11 +10,11 @@
     "static/media/giftIcon.png": "/static/media/giftIcon.4252b5d91dabc4b8bd76.png",
     "static/media/CityStreetwear-Regular.ttf": "/static/media/CityStreetwear-Regular.da64c30e8da230815e4b.ttf",
     "index.html": "/index.html",
-    "main.fde2c514.css.map": "/static/css/main.fde2c514.css.map",
-    "main.2589ba0c.js.map": "/static/js/main.2589ba0c.js.map"
+    "main.10be4e33.css.map": "/static/css/main.10be4e33.css.map",
+    "main.e65691b8.js.map": "/static/js/main.e65691b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.fde2c514.css",
-    "static/js/main.2589ba0c.js"
+    "static/css/main.10be4e33.css",
+    "static/js/main.e65691b8.js"
   ]
 }
