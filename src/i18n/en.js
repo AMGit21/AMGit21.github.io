@@ -14,6 +14,8 @@ const en = {
     // ---------------------------
     "Wedding Location": "Wedding Location",
     "The wedding will take place at ": "The wedding will take place at ",
+    ".": "",
+    "..": ".",
     " in Byblos, Lebanon.": " in Byblos, Lebanon.",
     "Beach clubs in Lebanon are private and with entrance fee. During your stay, you can benefit from a free entrance at Plage des Rois (the usual price is 20$). You can give your name and say you are a guest from our wedding to benefit from that free entrance.": "Beach clubs in Lebanon are private and with entrance fee. During your stay, you can benefit from a free entrance at Plage des Rois (the usual price is 20$). You can give your name and say you are a guest from our wedding to benefit from that free entrance.",
 
@@ -51,9 +53,11 @@ const en = {
     "This is their mobile number on WhatsApp: (24h/24) +961 3 646 314": "This is their mobile number on WhatsApp: (24h/24) +961 3 646 314",
     "The trip from Beirut to Byblos takes approximately 45 minutes by car (unless there is traffic... which is common in Lebanon). We recommend you take a cab (around 20$).": "The trip from Beirut to Byblos takes approximately 45 minutes by car (unless there is traffic... which is common in Lebanon). We recommend you take a cab (around 20$).",
     // -------------------------------
-    "Payments": "Payments",
-    "It is not possible to withdraw money on any ATM in Lebanon. Please do not even try! Their exchange rate is still the official one. We recommend you to come with a lot of cash ($ ou €) and to exchange at the reception of your hotel. In most places, it is not possible to pay by credit card, please ensure you have enough cash before going out.": "It is not possible to withdraw money on any ATM in Lebanon. Please do not even try! Their exchange rate is still the official one. We recommend you to come with a lot of cash ($ ou €) and to exchange at the reception of your hotel. In most places, it is not possible to pay by credit card, please ensure you have enough cash before going out.",
-
+    "Payments and life in Lebanon": "Payments and life in Lebanon",
+    "It is not possible to withdraw money on any ATM in Lebanon. Please do not even try! Their exchange rate is still the official one. We recommend you to come with a lot of cash ($ ou €) and to exchange at the reception of your hotel. In most places, it is not possible to pay by credit card, please ensure you have enough cash before going out. Payments can be made in dollars. You will probably get your change in dollars or in lebanese pounds.": "It is not possible to withdraw money on any ATM in Lebanon. Please do not even try! Their exchange rate is still the official one. We recommend you to come with a lot of cash ($ ou €) and to exchange at the reception of your hotel. In most places, it is not possible to pay by credit card, please ensure you have enough cash before going out. Payments can be made in dollars. You will probably get your change in dollars or in lebanese pounds.",
+    "Please ": "Please ",
+    "do not": "do not",
+    " drink tap water in Lebanon, it is not safe. We recommend you buy bottled water from a local market and ensure you have some in your room. We also advise you to bring basic medicine. You can not find everything in local pharmacies, especially outside Beirut.": " drink tap water in Lebanon, it is not safe. We recommend you buy bottled water from a local market and ensure you have some in your room. We also advise you to bring basic medicine. You can not find everything in local pharmacies, especially outside Beirut.",
 
 
     // end of info pratique

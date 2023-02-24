@@ -13,7 +13,8 @@ const fr = {
     // ----------------------------------
     "Wedding Location": "Lieu de Mariage",
     "The wedding will take place at ": "Le mariage aura lieu au club ",
-    " in Byblos, Lebanon.": "",
+    "..": "",
+    " in Byblos, Lebanon.": " à Byblos, Liban.",
     "Beach clubs in Lebanon are private and with entrance fee. During your stay, you can benefit from a free entrance at Plage des Rois (the usual price is 20$). You can give your name and say you are a guest from our wedding to benefit from that free entrance.": "Les plages au Liban sont privées et donc payantes. Pendant votre séjour, vous bénéficierez d'une entrée gratuite à Plage des Rois (le tarif habituel est de 20$). Pour cela, il vous suffira de donner votre nom et d'indiquer que vous faites partie des invités du mariage de \"Sabine et Julien\"",
 
     // ----------------------------------
@@ -50,9 +51,11 @@ const fr = {
     "This is their mobile number on WhatsApp: (24h/24) +961 3 646 314": "Tél sur WhatsApp : (24h/24) +961 3 646 314",
     "The trip from Beirut to Byblos takes approximately 45 minutes by car (unless there is traffic... which is common in Lebanon). We recommend you take a cab (around 20$).": "Le trajet de Beyrouth à Byblos prend environ 45 minutes en voiture (sauf en cas d'embouteillages... ce qui est plutôt fréquent au Liban). Nous vous conseillons de prendre un taxi (environ 20$)",
     // -----------------------------
-    "Payments": "Paiements sur place",
-    "It is not possible to withdraw money on any ATM in Lebanon. Please do not even try! Their exchange rate is still the official one. We recommend you to come with a lot of cash ($ ou €) and to exchange at the reception of your hotel. In most places, it is not possible to pay by credit card, please ensure you have enough cash before going out.": "Il n'est pas possible de retirer des devises dans les distributeurs au Liban. N'essayez surtout pas (le taux de change officiel reste celui appliqué). Nous vous recommandons donc de venir avec  pas mal d'espèces ($ ou €) et de faire du change dans votre hôtel. Dans la plupart des lieux, il n'est pas possible de payer par carte bancaire, ils font donc prévoir du cash pour chacune de vos sorties.",
-
+    "Payments and life in Lebanon": "Paiements et vie sur place",
+    "It is not possible to withdraw money on any ATM in Lebanon. Please do not even try! Their exchange rate is still the official one. We recommend you to come with a lot of cash ($ ou €) and to exchange at the reception of your hotel. In most places, it is not possible to pay by credit card, please ensure you have enough cash before going out. Payments can be made in dollars. You will probably get your change in dollars or in lebanese pounds.": "Il n'est pas possible de retirer des devises dans les distributeurs au Liban. N'essayez surtout pas (le taux de change officiel reste celui appliqué). Nous vous recommandons donc de venir avec  pas mal d'espèces ($ ou €) et de faire du change dans votre hôtel. Dans la plupart des lieux, il n'est pas possible de payer par carte bancaire, ils font donc prévoir du cash pour chacune de vos sorties. Les paiements peuvent se faire en dollars, on vous rendra la monnaie soit en livres libanaise soit en dollars.",
+    "Please ": "L'eau du robinet n'est pas potable, il ne faut ",
+    "do not": "surtout pas",
+    " drink tap water in Lebanon, it is not safe. We recommend you buy bottled water from a local market and ensure you have some in your room. We also advise you to bring basic medicine. You can not find everything in local pharmacies, especially outside Beirut.": "  la boire au risque d’avoir quelques désagréments. Nous vous conseillons de prévoir des bouteilles d'eau dans votre chambre. Pensez également à prendre les médicaments de base. Il n'est pas certain de tout trouver sur place, surtout en dehors de Beyrouth.",
 
 
     // end of info pratique

@@ -23,6 +23,7 @@ body {
     padding: 0;
     background-color: white;
     font-family: "SourceSerifVariable-Roman", sans-serif;
+    overflow-x: none;
 }
 
 a {
@@ -59,5 +60,8 @@ a {
 @media only screen and (max-width: 768px) {
     * {
         font-size: medium;
+    }
+    body {
+        overflow-x: none;
     }
 }
