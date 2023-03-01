@@ -29,6 +29,7 @@ const Program = () => {
                         <li className='listItem'>{t('4:30pm: Wedding ceremony')}</li>
                         <li className='listItem'>{t('6pm: Cocktail')}</li>
                         <li className='listItem'>{t('8pm: Dinner and Party')}</li>
+                        <li className='listItem'>{t('Tenue vestimentaire : chic léger (il risque de faire chaud)')}</li>
                     </ul>
                     <hr className='lineBetweenTimeLine' />
                     <ul className='listTitle'>{t('Sunday, September 17, 2023')}
@@ -42,6 +43,7 @@ const Program = () => {
                             </i>
                         </li>
                         <li className='listItem'>{t('1pm: Lunch Chez Fouad')}</li>
+                        <li className='listItem'>{t("Tenue vestimentaire : décontractée (n'oubliez pas vos maillots !) ")}</li>
                     </ul>
                 </div>
             </div>
