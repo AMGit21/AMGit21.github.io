@@ -26,11 +26,13 @@ const fr = {
     " for your reservations.": " pour vos réservations.",
     "Beirut: we recommend you to say in the following areas: Achrafieh, Gemmayzeh, Mar Mikhael, Badaro, Sodeco or Hamra": "A Beyrouth : Nous vous recommandons de séjourner dans les quartiers suivants : Achrafieh, Gemmayzé, Mar Mikhael, Badaro, Sodeco ou Hamra",
     "Byblos: we recommend you to book a hotel close to the wedding location (you can easily find it on ": "A Byblos : Nous vous recommandons de réserver un hôtel proche du lieu de mariage (vérifier sur l'application ",
-    " If you need some help with finding a place, we managed to get some discounts in the following hotel: Victory Byblos Hotel & Spa. Below are some details:": " Si vous ne trouvez pas votre bonheur, nous avons négocié des tarifs préférentiels avec l'hôtel suivant : le Victory Byblos Hôtel. Ci-dessous les détails:",
-    "Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ": "Les tarifs démarrent à 60$ par nuit pour une chambre double sans petit déjeuner. Pour plus d'infos vous trouverez l'ensemble des offres ",
+    " If you need some help with finding a place, we have negotiated preferential rates with the following two hotels: Victory Byblos Hotel and Ocean Blue Hotel. Details below:": " Si vous ne trouvez pas votre bonheur, nous avons négocié des tarifs préférentiels avec les deux hôtels suivants : le Victory Byblos Hôtel et le Ocean Blue Hotel. Ci-dessous les détails:",
+    "Hotel 1 - Victory Hotel. Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ": "Hôtel 1 - Victory Hotel. Les tarifs démarrent à 60$ par nuit pour une chambre double sans petit déjeuner. Pour plus d'infos vous trouverez l'ensemble des offres ",
     "here": "ici",
     ' Il faut regarder les prix de la liste "Bed only" (sans petit déjeuner) et "Bed and Buffet Breakfast" (avec petit déjeuner).': ' Il faut regarder les prix de la liste "Bed only" (sans petit déjeuner) et "Bed and Buffet Breakfast" (avec petit déjeuner).',
     "To book, please send an email ": "Pour réserver, merci d'envoyer un mail ",
+    "Hotel 2 - Ocean Blue. Rates start at $120 per night for a double room with breakfast without a view. We have negotiated a 15% discount on the prices that you can find ": "Hôtel 2 - Ocean Blue: Les tarifs démarrent à 120$ par nuit pour une chambre double avec petit déjeuner sans vue. Nous avons négocié un rabais de 15% sur les prix que vous trouverez ",
+    "To book, please contact the hotel representative via WhatsApp to obtain the 15% discount. The WhatsApp number is +96170528888 and the manager's name is Remi. She will request a payment of half the amount via a transfer on the secure Western Union platform. We used it and can confirm it is safe.": "Pour réserver, il faut contacter la personne de l'hôtel via WhatsApp pour obtenir une réduction de 15%. Son numéro est le +96170528888, elle s'appelle Remi. Une demande de paiement de la moitié du montant vous sera demandée pour valider votre réservation via un transfert sur la plateforme sécurisée Western Union. Nous l'avons utilisé et vous confirmons que celle-ci est fiable.",
     ' mentioning "Wedding Sabine & Julien" in the subject so you can benefit from the offer.': ' en indiquant en objet "Wedding Sabine & Julien" afin de bénéficier des tarifs préférentiels.',
 
     "For those who are lucky to stay a bit more in the country, you can check the website ": "Pour ceux qui ont la chance de rester un peu plus longtemps au Liban, n'hésitez pas à regarder le site de l'",
@@ -60,6 +62,13 @@ const fr = {
 
     // end of info pratique
     "Our best gift would be to see you at our wedding and celebrate that moment together. But if you wish to offer something, you can click on the gift below.": "Notre plus beau cadeau serait votre présence à notre mariage ! Mais si vous souhaitez nous offrir quelque chose vous pouvez cliquer sur le cadeau ci-dessous. Cette liste est seulement indicative.",
+    "Friday, September 15, 2023": "Vendredi 15 septembre 2023",
+    "Location: Bolero - Batroun, Lebanon": "Lieu : Bolero - Batroun, Liban",
+    "6:00 PM: Pre-wedding Gathering - Sunset": "18h00 : Sunset pré-mariage",
+    'Dress code: "All in White"': 'Tenue vestimentaire: "All in white"',
+    "We invite you to join us at Bolero, an iconic venue in Batroun, to enjoy a cocktail while watching the sunset. The idea is to gather everyone that is available and want to join, all dressed in white, before the festivities on Saturday. There is a minimum charge of $20/person (18€) that you can use for any drink and/or food.": 'On vous propose de nous retrouver à 18h00 au Boléro, lieu emblématique de Batroun, pour boire un cocktail devant le coucher de soleil. L\'idée est qu\'on se retrouve, pour ceux qui le souhaitent et sont disponibles, habillés tout en blanc, avant les festivités du samedi. Il y a un minimum à dépenser "minimum charge" de 20$/personne (18 euros) au choix (boissons et/ou nourriture).',
+
+
     "Saturday September 16, 2023": "Samedi 16 septembre 2023",
     "Location: ": "Lieu : ",
     " Lebanon": " Liban",

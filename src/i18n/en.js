@@ -28,11 +28,13 @@ const en = {
     " pour vos réservations.": "",
     "Beirut: we recommend you to say in the following areas: Achrafieh, Gemmayzeh, Mar Mikhael, Badaro, Sodeco or Hamra": "Beirut: we recommend you to say in the following areas: Achrafieh, Gemmayzeh, Mar Mikhael, Badaro, Sodeco or Hamra",
     "Byblos: we recommend you to book a hotel close to the wedding location (you can easily find it on ": "Byblos: we recommend you to book a hotel close to the wedding location (you can easily find it on ",
-    " If you need some help with finding a place, we managed to get some discounts in the following hotel: Victory Byblos Hotel & Spa. Below are some details:": " If you need some help with finding a place, we managed to get some discounts in the following hotel: Victory Byblos Hotel & Spa. Below are some details:",
-    "Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ": "Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ",
+    " If you need some help with finding a place, we have negotiated preferential rates with the following two hotels: Victory Byblos Hotel and Ocean Blue Hotel. Details below:": " If you need some help with finding a place, we have negotiated preferential rates with the following two hotels: Victory Byblos Hotel and Ocean Blue Hotel. Details below:",
+    "Hotel 1 - Victory Hotel. Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ": "Hotel 1 - Victory Hotel. Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ",
     "here": "here",
     ' Il faut regarder les prix de la liste "Bed only" (sans petit déjeuner) et "Bed and Buffet Breakfast" (avec petit déjeuner).': '',
     "To book, please send an email ": "To book, please send an email ",
+    "Hotel 2 - Ocean Blue. Rates start at $120 per night for a double room with breakfast without a view. We have negotiated a 15% discount on the prices that you can find ": "Hotel 2 - Ocean Blue. Rates start at $120 per night for a double room with breakfast without a view. We have negotiated a 15% discount on the prices that you can find ",
+    "To book, please contact the hotel representative via WhatsApp to obtain the 15% discount. The WhatsApp number is +96170528888 and the manager's name is Remi. She will request a payment of half the amount via a transfer on the secure Western Union platform. We used it and can confirm it is safe.": "To book, please contact the hotel representative via WhatsApp to obtain the 15% discount. The WhatsApp number is +96170528888 and the manager's name is Remi. She will request a payment of half the amount via a transfer on the secure Western Union platform. We used it and can confirm it is safe.",
     ' mentioning "Wedding Sabine & Julien" in the subject so you can benefit from the offer.': ' mentioning "Wedding Sabine & Julien" in the subject so you can benefit from the offer.',
 
     "For those who are lucky to stay a bit more in the country, you can check the website ": "For those who are lucky to stay a bit more in the country, you can check the website ",
@@ -63,6 +65,13 @@ const en = {
     // end of info pratique
 
     "Our best gift would be to see you at our wedding and celebrate that moment together. But if you wish to offer something, you can click on the gift below.": "Our best gift would be to see you at our wedding and celebrate that moment together. But if you wish to offer something, you can click on the gift below.",
+    "Friday, September 15, 2023": "Friday, September 15, 2023",
+    "Location: Bolero - Batroun, Lebanon": "Location: Bolero - Batroun, Lebanon",
+    "6:00 PM: Pre-wedding Gathering - Sunset": "6:00 PM: Pre-wedding Gathering - Sunset",
+    'Dress code: "All in White"': 'Dress code: "All in White"',
+    "We invite you to join us at Bolero, an iconic venue in Batroun, to enjoy a cocktail while watching the sunset. The idea is to gather everyone that is available and want to join, all dressed in white, before the festivities on Saturday. There is a minimum charge of $20/person (18€) that you can use for any drink and/or food.": "We invite you to join us at Bolero, an iconic venue in Batroun, to enjoy a cocktail while watching the sunset. The idea is to gather everyone that is available and want to join, all dressed in white, before the festivities on Saturday. There is a minimum charge of $20/person (18€) that you can use for any drink and/or food.",
+
+
     "Saturday September 16, 2023": "Saturday September 16, 2023",
     "Location: ": "Location: ",
     " Lebanon": " Lebanon",

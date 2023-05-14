@@ -1,6 +1,7 @@
 import React from 'react';
 import './PracticalInfo.css'
 import VictoryHotelDeals from '../../assets/pdf/Victory Hotel deals.pdf'
+import OffreOceanBlue from '../../assets/pdf/Offre Ocean Blue.pdf'
 import { useTranslation } from 'react-i18next';
 const PracticalInfo = () => {
     const { t } = useTranslation();
@@ -37,16 +38,19 @@ const PracticalInfo = () => {
                 <p className='justifyText'>{t("Beirut: we recommend you to say in the following areas: Achrafieh, Gemmayzeh, Mar Mikhael, Badaro, Sodeco or Hamra")}.</p>
                 <p className='justifyText'>{t("Byblos: we recommend you to book a hotel close to the wedding location (you can easily find it on ")}
                     <a href="https://goo.gl/maps/GZP2A4y4kApzVkKx7" rel="noreferrer" target="_blank">Google Map</a>
-                    ).{t(" If you need some help with finding a place, we managed to get some discounts in the following hotel: Victory Byblos Hotel & Spa. Below are some details:")}</p>
+                    ).{t(" If you need some help with finding a place, we have negotiated preferential rates with the following two hotels: Victory Byblos Hotel and Ocean Blue Hotel. Details below:")}</p>
 
-                <p className='justifyText'>{t("Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ")}
+                <p className='justifyText'>{t("Hotel 1 - Victory Hotel. Prices start at 60$ per night for a double room without breakfast. You will find more information about all deals ")}
                     <a href={VictoryHotelDeals} rel="noreferrer" target="_blank">{t("here")}</a>.
                     {t(' Il faut regarder les prix de la liste "Bed only" (sans petit déjeuner) et "Bed and Buffet Breakfast" (avec petit déjeuner).')}</p>
                 <p className='justifyText'>{t("To book, please send an email ")}
                     <a href="mailto:victorybybloshotel@gmail.com">{t("here")}</a>
                     {t(' mentioning "Wedding Sabine & Julien" in the subject so you can benefit from the offer.')}
                 </p>
-
+                <p className='justifyText'>{t("Hotel 2 - Ocean Blue. Rates start at $120 per night for a double room with breakfast without a view. We have negotiated a 15% discount on the prices that you can find ")}
+                    <a href={OffreOceanBlue} rel="noreferrer" target="_blank">{t("here")}</a>.<br /><br />
+                    {t("To book, please contact the hotel representative via WhatsApp to obtain the 15% discount. The WhatsApp number is +96170528888 and the manager's name is Remi. She will request a payment of half the amount via a transfer on the secure Western Union platform. We used it and can confirm it is safe.")}
+                </p>
 
 
                 <p className='justifyText'>{t("For those who are lucky to stay a bit more in the country, you can check the website ")}

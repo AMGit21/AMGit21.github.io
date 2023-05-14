@@ -17,6 +17,18 @@ const Program = () => {
             <div className='lineUnderTitle'></div>
             <div className='divWrapperProgram'>
                 <div className="timelineContainer">
+
+                    <ul className='listTitle'>{t('Friday, September 15, 2023')}
+                        <li className='listItem'>
+                            <i>{t("Location: Bolero - Batroun, Lebanon")}
+                            </i>
+                        </li>
+                        <li className='listItem'>{t('6:00 PM: Pre-wedding Gathering - Sunset')}</li>
+                        <li className='listItem'>{t('Dress code: "All in White"')}</li>
+                        <li className='listItem'>{t('We invite you to join us at Bolero, an iconic venue in Batroun, to enjoy a cocktail while watching the sunset. The idea is to gather everyone that is available and want to join, all dressed in white, before the festivities on Saturday. There is a minimum charge of $20/person (18€) that you can use for any drink and/or food.')}</li>
+                    </ul>
+                    <hr className='lineBetweenTimeLine' />
+
                     <ul className='listTitle'>{t('Saturday September 16, 2023')}
                         <li className='listItem'>
                             <i>{t("Location: ")}
@@ -42,7 +54,8 @@ const Program = () => {
                                 {t(" Lebanon")}
                             </i>
                         </li>
-                        <li className='listItem'>{t('1pm: Lunch Chez Fouad')}</li>
+                        <li className='listItem'>{t('1pm: Lunch Chez Fouad')} - <a href="#" rel="noreferrer" target="_blank">Menu</a>
+                        </li>
                         <li className='listItem'>{t("Tenue vestimentaire : décontractée (n'oubliez pas vos maillots !) ")}</li>
                     </ul>
                 </div>
