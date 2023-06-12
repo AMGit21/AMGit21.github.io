@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Program.css'
 import { useTranslation } from 'react-i18next';
 import { ActiveLinkContext } from '../../components/ActiveLinkContext/ActiveLinkContext.js';
+import MenuChezFouadSabineJulien from '../../assets/pdf/Menu chez Fouad Sabine Julien.pdf';
 
 const Program = () => {
     const { t } = useTranslation();
@@ -54,7 +55,7 @@ const Program = () => {
                                 {t(" Lebanon")}
                             </i>
                         </li>
-                        <li className='listItem'>{t('1pm: Lunch Chez Fouad')} - <a href="#" rel="noreferrer" target="_blank">Menu</a>
+                        <li className='listItem'>{t('1pm: Lunch Chez Fouad')} - <a href={MenuChezFouadSabineJulien} rel="noreferrer" target="_blank">Menu</a>
                         </li>
                         <li className='listItem'>{t("Tenue vestimentaire : décontractée (n'oubliez pas vos maillots !) ")}</li>
                     </ul>
